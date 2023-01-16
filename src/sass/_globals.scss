@@ -1,0 +1,6 @@
+@use "variables/typography";
+
+body {
+  font-family: typography.$typography-primary;
+  font-size: typography.$typography-size;
+}
