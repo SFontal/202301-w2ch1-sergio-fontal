@@ -1,0 +1,9 @@
+@import url("/node_modules/@fontsource/league-spartan/400.css");
+@import url("/node_modules/@fontsource/league-spartan/500.css");
+@import url("/node_modules/@fontsource/league-spartan/700.css");
+
+$typography-primary: "League Spartan";
+$typography-color-primary: hsl(300, 43%, 22%);
+$typography-color-secondary: hsl(300, 24%, 96%);
+$typography-color-terciary: #fff;
+$typography-size: 0.9375rem;
