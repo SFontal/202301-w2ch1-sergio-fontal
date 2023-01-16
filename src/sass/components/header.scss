@@ -1,0 +1,17 @@
+@use "../variables/typography";
+
+.social-proof__header {
+  text-align: center;
+
+  h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+  }
+
+  p {
+    color: typography.$typography-color-secondary;
+    line-height: 1.5rem;
+    font-size: 1.07rem;
+    font-weight: 500;
+  }
+}

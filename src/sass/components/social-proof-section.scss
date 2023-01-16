@@ -1,0 +1,10 @@
+@use "../variables/social-proof-global";
+@use "../variables/typography";
+
+.social-proof {
+  color: typography.$typography-color-primary;
+  font-family: typography.$typography-primary;
+  padding: social-proof-global.$padding-top
+    social-proof-global.$padding-horizontal social-proof-global.$padding-bottom;
+  width: 375px;
+}
