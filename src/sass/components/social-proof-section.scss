@@ -9,4 +9,8 @@
     social-proof-global.$section-padding-horizontal
     social-proof-global.$section-padding-bottom;
   width: 375px;
+
+  > :not(:last-child) {
+    margin-bottom: 3rem;
+  }
 }
