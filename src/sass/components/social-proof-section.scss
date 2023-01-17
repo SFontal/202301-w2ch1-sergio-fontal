@@ -3,6 +3,9 @@
 @use "../variables/colors";
 
 .social-proof {
+  background-image: url("../images/bg-pattern-top-desktop.svg");
+  background-position: 45% -6%;
+  background-repeat: no-repeat;
   color: colors.$primary-main;
   font-family: typography.$typography-primary;
   padding: social-proof-global.$section-padding-top
