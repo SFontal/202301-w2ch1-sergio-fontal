@@ -1,0 +1,47 @@
+@use "../variables/social-proof-global";
+@use "../variables/colors";
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.card {
+  background-color: colors.$primary-main;
+  border-radius: 0.5rem;
+  color: colors.$secondary-sub;
+  line-height: 1.5rem;
+  padding: social-proof-global.$card-padding-vertical
+    social-proof-global.$card-padding-horizontal;
+
+  header {
+    display: flex;
+    align-items: center;
+    gap: 1.3333333333333333rem;
+    margin-bottom: 1.8rem;
+  }
+
+  img {
+    border-radius: 1.5rem;
+  }
+
+  div {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.2rem;
+
+    :first-child {
+      font-weight: 700;
+    }
+
+    :nth-child(2) {
+      color: colors.$primary-sub;
+    }
+  }
+
+  p {
+    font-size: 1.05rem;
+    margin: 0;
+  }
+}
