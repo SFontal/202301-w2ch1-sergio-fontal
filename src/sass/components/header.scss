@@ -1,7 +1,8 @@
-@use "../variables/typography";
+@use "../variables/colors";
 
 .social-proof__header {
   text-align: center;
+  margin-bottom: 3rem;
 
   h2 {
     font-size: 2.5rem;
@@ -9,7 +10,7 @@
   }
 
   p {
-    color: typography.$typography-color-secondary;
+    color: colors.$secondary-main;
     line-height: 1.5rem;
     font-size: 1.07rem;
     font-weight: 500;
